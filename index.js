@@ -6,10 +6,10 @@ app.use(bodyParser.json({ type: 'application/json' }));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 var con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "reactnative"
+     host: "103.83.81.134",
+    user: "visionindiapower_arteffect",
+    password: "S_7@hAw#JIaU",
+    database: "visionindiapower_arteffect"
 });
 
 var server = app.listen(3000, function () {
